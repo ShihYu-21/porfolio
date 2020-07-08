@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: Franklin Gothic;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+.navbar>.navbar-brand {
+    font-size: 30px;
+    margin-left: 115px;
+    margin-top: 5px;
+}
+
+.navbar>.collapse {
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+
+.resume {
+    color: rgb(223, 80, 80);
+}
+
+.resume:hover {
+    color: rgb(223, 80, 80);
+}
+
+.navbar {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/*=============================================
+=                  Title                     =
+=============================================*/
+
+.title {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.line {
+    width: 80px;
+    height: 3px;
+    background-color: rgb(223, 80, 80);
+    margin: 50px auto;
+
+}
+
+.title>a {
+    color: rgb(223, 80, 80);
+    text-decoration: none;
+}
+
+.title>a:hover {
+    color: rgb(223, 80, 80);
+}
+
+/*=============================================
+=                  skill                     =
+=============================================*/
+.skill {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.twod>img {
+    margin-top: 10px;
+    position: relative;
+    right: 365px;
+    top: 33px;
+}
+
+.threed>img {
+    position: relative;
+    left: 63px;
+    bottom: 45px;
+}
+
+/*=============================================
+=                  work                       =
+=============================================*/
+
+
+.exper {
+    margin: 0 300px;
+    margin-top: 30px;
+    background-color: rgb(223, 80, 80);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.year {
+    float: left;
+    padding-right: 50px;
+}
+
+.expercontent {
+    float: left;
+}
+
+.exper2 {
+    margin: 0 300px;
+    margin-top: 30px;
+    background-color: rgb(223, 80, 80);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.exper3 {
+    margin: 0 300px;
+    margin-top: 30px;
+    background-color: rgb(223, 80, 80);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: Franklin Gothic;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+.navbar>.navbar-brand {
+    font-size: 30px;
+    margin-left: 115px;
+    margin-top: 5px;
+}
+
+.navbar>.collapse {
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.resume {
+    color: rgb(223, 80, 80);
+}
+
+.navbar {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/*=============================================
+=                  Header                     =
+=============================================*/
+.jumbotron>.container {
+    margin-top: 120px;
+}
+
+#header {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    height: 650px;
+    background-image: url("../proimg/board_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px;
+    background-attachment: fixed;
+    /* background-attachment: fixed;滾動不動 */
+    position: relative;
+    z-index: 4;
+}
+
+
+#header:after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+#header>.container {
+    z-index: 6;
+    position: relative;
+    top: 110px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}

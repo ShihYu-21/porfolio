@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: Franklin Gothic;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+.navbar>.navbar-brand {
+    font-size: 30px;
+    margin-left: 115px;
+    margin-top: 5px;
+}
+
+.navbar>.collapse {
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+
+.resume {
+    color: rgb(223, 80, 80);
+}
+
+.resume:hover {
+    color: rgb(223, 80, 80);
+}
+
+.navbar {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/*=============================================
+=                  Title                     =
+=============================================*/
+.title {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.line {
+    width: 80px;
+    height: 3px;
+    background-color: rgb(223, 80, 80);
+    margin: 50px auto;
+
+}
+
+/*=============================================
+=                  contact                     =
+=============================================*/
+.form-group {
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+
+.form-control {
+    border: 1px solid white;
+}
+
+.submit {
+    margin-top: 20px;
+    width: 400px;
+    border: none;
+    background-color: rgb(223, 80, 80);
+    color: white;
+    border-radius: 5px;
+}
